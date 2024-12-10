@@ -10,7 +10,6 @@ This is a web application built using Angular 18.
 - [Installation](#installation)
 - [Usage](#usage)
 - [Deployment](#deployment)
-- [Versioning](#versioning)
 - [Contributing](#contributing)
 - [License](#license)
 
