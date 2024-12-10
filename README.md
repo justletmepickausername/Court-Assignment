@@ -1,7 +1,7 @@
 
 # Angular 18 Project
 
-This is a web application built using Angular 18. It provides [brief description of what the application does].
+This is a web application built using Angular 18.
 
 ## Table of Contents
 
@@ -20,7 +20,6 @@ This is a web application built using Angular 18. It provides [brief description
 
 - Modern web application built with Angular 18
 - Responsive design for mobile and desktop devices
-- [Add any other notable features of your project]
 
 ---
 
@@ -28,9 +27,9 @@ This is a web application built using Angular 18. It provides [brief description
 
 Before you begin, ensure you have met the following requirements:
 
-- **Node.js**: Version X.X.X or later
-- **npm**: Version X.X.X or later
-- **Angular CLI**: Version X.X.X or later
+- **Node.js**: Version 22.11.0 or later
+- **npm**: Version 10.9.0 or later
+- **Angular CLI**: Version 18.2.12 or later
 
 ---
 
@@ -40,12 +39,12 @@ Follow these steps to set up the project locally:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/your-angular-project.git
+   git clone https://github.com/justletmepickausername/Court-Assignment-Front.git
    ```
 
 2. Navigate to the project directory:
    ```bash
-   cd your-angular-project
+   cd CourtComplaintFormAssignment
    ```
 
 3. Install the required dependencies:
@@ -85,16 +84,6 @@ ng add @angular/fire
 ```
 
 Then follow the Firebase deployment steps in the [official Firebase documentation](https://firebase.google.com/docs/hosting).
-
----
-
-## Versioning
-
-We use [SemVer](https://semver.org/) for versioning. For the list of versions, see the [releases](https://github.com/your-username/your-angular-project/releases) page.
-
-- **1.0.0**: Initial release
-- **1.1.0**: Added feature XYZ
-- **1.2.0**: Bug fixes and performance improvements
 
 ---
 
