@@ -1,1 +1,41 @@
-/* You can add global styles to this file, and also import other style files */
+*
+{
+    direction: rtl;
+}
+
+html, body
+{
+    margin: 0;
+    padding: 0;
+
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+html
+{
+    scrollbar-width: none; /* Personal preference, hiding the scrollbar */
+} 
+
+select, input
+{
+    box-sizing: border-box;
+
+    appearance: none;
+
+    border: solid 1px #3d759a !important;
+    border-radius: .375rem;;
+
+    padding: .375rem .75rem;
+
+    font-size: 1rem;
+    font-weight: 400;
+
+    line-height: 1.5;
+
+    color: #212529;
+
+    background-color: white;
+    background-clip: padding-box;
+
+    width: 100%;
+}

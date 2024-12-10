@@ -1,0 +1,145 @@
+<div class="top-bar-main-container">
+    <div class="top-bar-inner-container">
+
+        <div class="top-bar-right-logo-and-text">
+
+            <img src="https://publiccomplaints.court.gov.il/Content/images/semel-medina.PNG"/>
+
+            <div class="top-bar-text-container">
+
+                <p>מדינת ישראל</p>
+                <p>הנהלת בתי המשפט</p>
+
+            </div>
+
+        </div>
+        
+        <div class="top-bar-left-logo">
+
+            <img src="https://publiccomplaints.court.gov.il/Content/images/semel-mimshal-zamin.PNG"/>
+
+        </div>
+
+    </div>
+</div>
+
+<div class="page-title-container">
+    <div class="page-title-inner-container">
+        <p>פניות הציבור</p>
+    </div>
+</div>
+
+<div class="page-main-container">
+    <div class="padding-container">
+        <div class="page-inner-container">
+
+            <div class="form-module">
+    
+                <div class="module-title-container">
+                    <p>פרטי הפונה</p>
+                </div>
+    
+                <div class="module-body-container">
+                    
+                    <div class="form-line">
+                        <div class="form-field">
+                            <p>תואר</p>
+                            <select>
+                                <option disabled selected hidden></option>
+                                <option>מר</option>
+                                <option>גברת</option>
+                                <option>אחר</option>
+                                <option>עו"ד</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-line">
+                        <div class="form-field">
+                            <p>שם פרטי</p>
+                            <input/>
+                        </div>
+
+                        <div class="form-field">
+                            <p>שם משפחה</p>
+                            <input/>
+                        </div>
+
+                        <div class="form-field">
+                            <p>תעודת זהות</p>
+                            <input/>
+                        </div>
+                    </div>
+
+                    <div class="form-line">
+                        <div class="form-field">
+                            <p>טלפון נייד</p>
+                            <input/>
+                        </div>
+
+                        <div class="form-field">
+                            <p>טלפון בבית</p>
+                            <input/>
+                        </div>
+
+                        <div class="form-field">
+                            <p>פקס</p>
+                            <input/>
+                        </div>
+                    </div>
+
+                    <div class="form-line">
+                        <div class="form-field">
+                            <p>דואר אלקטרוני</p>
+                            <input/>
+                        </div>
+                    </div>
+
+                    <div class="form-line">
+                        <div class="form-field">
+                            <p>ישוב</p>
+                            <select>
+                                <option disabled selected hidden></option>
+                                <option *ngFor="let city of cities">{{city}}</option>
+                            </select>
+                        </div>
+
+                        <div class="form-field">
+                            <p>כתובת</p>
+                            <input/>
+                        </div>
+
+                        <div class="form-field">
+                            <p>מיקוד</p>
+                            <input/>
+                        </div>
+                    </div>
+
+                    <div class="form-line">
+                        <div class="form-field">
+
+                            <p>מתלונן בשם אדם אחר?</p>
+
+                            <div class="flex-row">
+                                <div class="radio-button-field">
+                                    <input class="radio-button" type='radio' name='test' value='1' checked>
+                                    <p>כן</p>
+                                </div>
+
+                                <div class="radio-button-field">
+                                    <input class="radio-button" type='radio' name='test' value='2'>
+                                    <p>לא</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+    
+            </div>
+
+            <button>שלח</button>
+    
+        </div>
+    </div>
+</div>

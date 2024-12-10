@@ -1,0 +1,217 @@
+.top-bar-main-container
+{
+    width: 100%;
+    background-color: #285c7e;
+}
+
+.top-bar-inner-container
+{
+    width: 50%;
+    margin: auto;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    align-items: flex-start;
+
+    padding: 5px 0;
+}
+
+.top-bar-right-logo-and-text
+{
+    display: flex;
+    flex-direction: row;
+
+    gap: 50px;
+}
+
+.top-bar-text-container
+{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: flex-end;
+
+    line-height: 18px;
+}
+
+.top-bar-text-container p
+{
+    font-size: 14px;
+
+    padding: 0;
+    margin: 0;
+
+    text-wrap: nowrap;
+
+    color: white;
+}
+
+.top-bar-text-container p:last-of-type
+{
+    font-weight: bold;
+}
+
+.page-title-container
+{
+    width: 100%;
+
+    background-color: #b7d3e4;
+
+    border: none;
+    border-bottom: 1px #3c6483 solid;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+}
+
+.page-title-inner-container
+{
+    width: 50%;
+    margin: auto;
+}
+
+.page-title-inner-container p
+{
+    margin: 5px 0;
+    font-weight: bold;
+    color: #293843;
+}
+
+.page-main-container
+{
+    width: 100%;
+
+    background-color: #eef3f5;
+
+    margin: 0;
+    padding: 0;
+}
+
+.page-inner-container
+{
+    width: 98%;
+
+    background-color: white;
+
+    margin: 0 auto;
+
+    text-align: end;
+}
+
+.form-module
+{
+    width: 100%;
+    text-align: start;
+}
+
+.module-title-container
+{
+    width: 100%;
+    background-color: #cde2ee;
+}
+
+.module-title-container p
+{
+    margin: 0;
+    
+    font-weight: bold;
+    padding: 5px 15px;
+}
+
+.padding-container
+{
+    width: 52%;
+    margin: auto;
+    background-color: white;
+    padding-top: 10px;
+}
+
+.module-body-container
+{
+    margin-top: 0px;
+}
+
+.module-body-container p
+{
+    margin: 0;
+}
+
+.form-line
+{
+    background-color: #e4f1f9;
+    width: 100%;
+
+    margin-top: 3px;
+
+    display: flex;
+    flex-direction: row;
+
+    flex-wrap: wrap;
+
+}
+
+.form-field
+{
+    flex: 1;
+    padding: 15px 10px;
+
+    max-width: 100%;
+    min-width: 275px;
+}
+
+.form-field p
+{
+    margin-bottom: 3px;
+}
+
+.radio-button
+{
+    appearance: auto;
+    width: auto;
+}
+
+.radio-button-field
+{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.flex-row
+{
+    display: flex;
+    flex-direction: row;
+}
+
+button
+{
+    color: white;
+    background-color: #3d759a;
+    border: none;
+    padding: 10px 40px;
+
+    margin: 10px 0px;
+}
+
+@media screen and (max-width: 750px) 
+{
+    .padding-container
+    {
+        width: 90%;
+    } 
+
+    button
+    {
+        width: 100%;
+    }
+
+    .top-bar-inner-container
+    {
+        width: 90%;
+    }
+}
